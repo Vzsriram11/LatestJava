@@ -3,13 +3,11 @@ package org.example;
 import org.dto.Employee;
 
 import java.math.BigDecimal;
-import java.sql.Array;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class LearnJava8PlusFeatures {
+public class TestFeatures {
 
 
 
@@ -117,7 +115,7 @@ public class LearnJava8PlusFeatures {
   int resultNum = numbers.stream().filter(n -> n%2 ==1).map(n -> n*2).reduce(0,(c,e)->c+e);
         System.out.println("Result:"+ resultNum);
 
-        LearnJava8PlusFeatures l8 = new LearnJava8PlusFeatures();
+        TestFeatures l8 = new TestFeatures();
         l8.increment();
         System.out.println("l8.getCount:" + l8.getCount());
 

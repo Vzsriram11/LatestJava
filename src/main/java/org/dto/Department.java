@@ -1,4 +1,19 @@
 package org.dto;
 
-public class Department {
+import java.util.List;
+
+public class Department
+
+{
+    private String deptName;
+
+    private List<Employee> employeeList;
+
+    public String getDeptName() {
+        return deptName;
+    }
+
+    public List<Employee> getEmployeeList() {
+        return employeeList;
+    }
 }
